@@ -3,10 +3,11 @@ title: "Github Actionsでconcurrencyを使って重複実行を回避する"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: 
-  - "tech"
+  - "githubactions"
   - "ci"
   - "github"
-published: true
+published: true 
+published_at: "2024-11-13 11:35"
 ---
 GitHub Actionsを使ったCI/CDワークフローでは、同じブランチで新たなコミットがプッシュされるたびにワークフローが再実行されることが一般的です。
 しかし、進行中のワークフローを手動でキャンセルするのは面倒ですし、リソースの無駄にもなります。

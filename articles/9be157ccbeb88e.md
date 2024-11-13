@@ -6,8 +6,8 @@ topics:
 - "xcode"
 - "macos"
 - "ue5"
-  published: true
-  published_at: "2024-10-22 20:14"
+published: true
+published_at: "2024-10-22 20:14"
 ---
 
 24/10/22
@@ -16,7 +16,7 @@ macOS15にアップデート後、xcodeを16に更新してからUE5でプロジ
 結論としては、↓以下のようなエラーが出たときは、xcode15.◯に切り替える(元に戻す)と治る
 
 ---
-### 起きたこと
+## 起きたこと
 unreal engineで新規のプロジェクトをC++で作成しようとした時、以下のようなエラーwindowが表示された。
 
 > Setting up bundled DotNet SDK
@@ -70,7 +70,7 @@ xcodebuild -license accept
 ```
 などを一通り試してみたが上手くいかず、試しに**アップデート前のxcode15.4をアーカイブからダウンロードして、切り替えてみよう**ということに。
 
-#### xcode15のダウンロード
+### xcode15のダウンロード
 以下リンクから旧版はダウンロードできた
 https://developer.apple.com/download/applications/
 
@@ -94,7 +94,7 @@ zipファイルがダウンロードされ解凍する
 macOSをアップデートしてしまったので古いバージョンは使えない
 当たり前。
 
-#### 対処法
+## 対処法
 
 対処法はないか探しているとこんな記事が
 
@@ -129,7 +129,7 @@ open /Applications/Xcode_15.app/Contents/MacOS/Xcode
 
 ---
 
-#### これで無事解決
+## これで無事解決
 
 ちなみにブループリントで作成した時は、今回のエラーは発生しない
 が、メニューから新規C++クラスを追加した時は発生した。
