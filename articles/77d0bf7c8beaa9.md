@@ -6,7 +6,7 @@ topics:
   - "tech"
   - "ci"
   - "github"
-published: false
+published: true
 ---
 GitHub Actionsを使ったCI/CDワークフローでは、同じブランチで新たなコミットがプッシュされるたびにワークフローが再実行されることが一般的です。
 しかし、進行中のワークフローを手動でキャンセルするのは面倒ですし、リソースの無駄にもなります。
